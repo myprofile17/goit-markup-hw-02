@@ -16,6 +16,7 @@ body {
 	color: var(--primary-text-color);
 	font-family: Roboto, sans-serif;
 	letter-spacing: 0.03em;
+	font-size: 14px;
 }
 
 .visually-hidden {
@@ -65,8 +66,8 @@ button {
 .link-nav {
 	color: var(--primary-text-color);
 	font-weight: 500;
-	font-size: 14px;
 	line-height: 1.14;
+	letter-spacing: 0.02em;
 }
 .site-nav .link-nav:hover,
 .site-nav .link-nav:focus {
@@ -78,28 +79,32 @@ button {
 
 /* Контакти */
 
-.auth-nav .mail-tel {
+.auth-nav .contact-link {
 	color: var(--ouwer-text-color);
 	font-weight: 500;
-	font-size: 14px;
 	line-height: 1.14;
+	letter-spacing: 0.02em;
 }
 
-.auth-nav .mail-tel:hover,
-.auth-nav .mail-tel:focus {
+.auth-nav .contact-link:hover,
+.auth-nav .contact-link:focus {
 	color: var(--acent-color);
 }
 
 /* Герой */
 
+.hero {
+	background-color: var(--footer-bg-color);
+}
+
 .hero .hero-title {
 	color: var(--secondary-text-color);
-	background-color: var(--footer-bg-color);
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
 	text-align: center;
 	letter-spacing: 0.06em;
+	text-transform: uppercase;
 }
 .hero .hero-button {
 	color: var(--secondary-text-color);
@@ -115,22 +120,20 @@ button {
 
 .features-title {
 	color: var(--primary-text-color);
-	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14px;
 	letter-spacing: 0.03em;
+	text-transform: uppercase;
 }
 
 .features-text {
 	color: var(--ouwer-text-color);
-	font-size: 14px;
 	line-height: 1.71;
 }
 
 /* Діяльність */
 
 .section-title {
-	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.16;
 	text-align: center;
@@ -173,7 +176,6 @@ button {
 }
 /*Галерея проектів */
 .project-title {
-	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
@@ -200,20 +202,16 @@ button {
 
 .footer-map {
 	color: var(--secondary-text-color);
-	font-size: 14px;
 	line-height: 1.71;
 }
 
-.footer-mail-tel {
-	color: var(--secondary-text-color);
-	font-size: 14px;
+.footer-contact-link {
+	color: var(--footer-text-color);
 	line-height: 1.71;
 }
-.footer-map:hover,
-.footer-mail-tel:hover,
-.footer-mail-tel:hover,
-.footer-map:focus,
-.footer-mail-tel:focus,
-.footer-mail-tel:focus {
+.footer-contact-link:hover,
+.footer-contact-link:hover,
+.footer-contact-link:focus,
+.footer-contact-link:focus {
 	color: var(--acent-color);
 }
